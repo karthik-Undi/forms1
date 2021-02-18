@@ -15,6 +15,7 @@ namespace forms1
 {
     public partial class Form1 : Form
     {
+        //query for table and database creation in the project folder
         //Global Declaration of Connection string from config file and other objects which can be used in multiple functions
         public static String strr = Convert.ToString(ConfigurationManager.ConnectionStrings["EmployeeDatabase"].ConnectionString);
         SqlConnection con1 = new SqlConnection(strr);
@@ -322,6 +323,7 @@ namespace forms1
                 con1.Close();
             }
 
+
         }
 
         private void Excelbtn_Click(object sender, EventArgs e)
@@ -338,7 +340,7 @@ namespace forms1
 
 
             //file location of excel document in .xlsx format
-            String filename = @"G:\test\forms1\forms1\Media\Book1.xlsx";
+            String filename = @"G:\test\forms1\forms1\Book1.xlsx";
 
             //connection string format found at https://www.connectionstrings.com/ace-oledb-12-0/
             String connection = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + filename + ";Extended Properties=\"Excel 12.0 Xml;HDR=YES;\"";

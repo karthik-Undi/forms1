@@ -60,16 +60,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="retailerdistributormanagementdbDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>retailerdistributormanagementdbDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="taskDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>taskDataSet.xsd</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -82,6 +72,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Book1.xlsx" />
     <None Include="employeeDataSet.xsc">
       <DependentUpon>employeeDataSet.xsd</DependentUpon>
     </None>
@@ -103,34 +94,15 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="retailerdistributormanagementdbDataSet.xsc">
-      <DependentUpon>retailerdistributormanagementdbDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="retailerdistributormanagementdbDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>retailerdistributormanagementdbDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="retailerdistributormanagementdbDataSet.xss">
-      <DependentUpon>retailerdistributormanagementdbDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="taskDataSet.xsc">
-      <DependentUpon>taskDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="taskDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>taskDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="taskDataSet.xss">
-      <DependentUpon>taskDataSet.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SQLQuery.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
