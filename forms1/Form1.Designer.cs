@@ -74,7 +74,7 @@ namespace forms1
             // 
             this.StatusMessage.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.StatusMessage.AutoSize = true;
-            this.StatusMessage.Location = new System.Drawing.Point(573, 525);
+            this.StatusMessage.Location = new System.Drawing.Point(576, 531);
             this.StatusMessage.Name = "StatusMessage";
             this.StatusMessage.Size = new System.Drawing.Size(28, 17);
             this.StatusMessage.TabIndex = 2;
@@ -83,9 +83,9 @@ namespace forms1
             // 
             // OpenCon
             // 
-            this.OpenCon.Location = new System.Drawing.Point(32, 497);
+            this.OpenCon.Location = new System.Drawing.Point(12, 497);
             this.OpenCon.Name = "OpenCon";
-            this.OpenCon.Size = new System.Drawing.Size(129, 46);
+            this.OpenCon.Size = new System.Drawing.Size(149, 46);
             this.OpenCon.TabIndex = 3;
             this.OpenCon.Text = "Open Connection";
             this.OpenCon.UseVisualStyleBackColor = true;
@@ -228,7 +228,7 @@ namespace forms1
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(938, 583);
+            this.ClientSize = new System.Drawing.Size(945, 595);
             this.Controls.Add(this.Addmsg);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.Deletebtn);

@@ -85,6 +85,17 @@
       <DependentUpon>employeeDataSet.xsd</DependentUpon>
     </None>
     <None Include="Media\Book1.xlsx" />
+    <None Include="Properties\DataSources\employeeDataSet.datasource" />
+    <None Include="Properties\DataSources\employeeDataSet.EmployeeDetailsDataTable.datasource" />
+    <None Include="Properties\DataSources\employeeDataSet.EmployeeDetailsRow.datasource" />
+    <None Include="Properties\DataSources\employeeDataSet.EmployeeDetailsRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\employeeDataSet.EmployeeDetailsRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\forms1.employeeDataSetTableAdapters.EmployeeDetailsTableAdapter.datasource" />
+    <None Include="Properties\DataSources\forms1.employeeDataSetTableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\forms1.employeeDataSetTableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\forms1.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\forms1.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
